@@ -1,0 +1,16 @@
+{{main-navigation}}
+{{overview-table data=model}}
+<div class="flex-container">
+  <div class="flex-item">
+    {{year-chart data=model title="Sites Added Per Year" text="# of Sites" type="sites" name="Sites" multiplier="1"}}
+  </div>
+  <div class="flex-item">
+    {{total-year-chart data=model title="Total Sites Per Year" text="Total # of sites" type="sites" name="Sites" multiplier="1"}}
+  </div>
+  <div class="flex-item">
+    {{year-chart data=model title="MW (DC) Added Per Year" text="MW (DC) Added" type="size" name="MW" multiplier="1000000"}}
+  </div>
+  <div class="flex-item">
+    {{total-year-chart data=model title="Total MW (DC) Per Year" text="Total MW (DC) Added" type="size" name="MW" multiplier="1000000"}}
+  </div>
+</div>

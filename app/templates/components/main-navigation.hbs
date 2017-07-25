@@ -1,0 +1,6 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  {{#if session.isAuthenticated}}
+    <button {{action "logout"}} id="logout" class="btn btn-danger navbar-btn navbar-right">Logout</button>
+    <h1 id="overview-title">Overview</h1>
+  {{/if}}
+</nav>

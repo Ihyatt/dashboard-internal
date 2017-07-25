@@ -1,0 +1,156 @@
+$color-sky-blue: #3498DB;
+$color-white: white;
+$color-grey: #ccc;
+$color-dark-grey:#121F1F;
+
+// general
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: sans-serif;
+}
+
+// decoration for login page
+#form-container{
+  margin-top: 20px;
+  padding:20px;
+  border-radius: 4px;
+  background-color: $color-sky-blue;
+  color: $color-white;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.form-row{
+  padding: 10px 0;
+  display: flex;
+}
+
+.form-row label {
+  padding-right: 10px;
+}
+
+.form-row input {
+  flex: 1;
+  border-radius: 4px;
+}
+
+#login{
+  outline: none;
+  border:none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+
+// decoration for overview table
+@mixin row {
+  display: flex;
+  flex-direction: row;
+  
+  & div {
+    display: flex;
+    width: calc(100% / 7);
+    height: 40px;
+    padding: 0 0.5em;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid $color-grey;
+    border-right: 0;
+    border-bottom: 0;
+    overflow: hidden;  
+  }
+}
+
+.table {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  background-color: $color-sky-blue;
+  color: $color-white;
+  font-size:1em;
+}
+
+.table__header {
+  @include row;
+  & div {
+    border-bottom: 0; 
+  }
+}
+
+.table__body__row {
+  @include row;
+}
+
+.table__body__row:last-child{
+  border-bottom: 3px solid $color-grey;
+}
+
+.table__body__row{
+  border-right:  3px solid $color-grey;
+}
+
+.table__header{
+   border-right: 3px solid $color-grey;
+}
+
+// decoration for charts
+.flex-container {
+    margin-top: 20px;
+    padding:0 5% 30px;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.flex-item {
+  font-size:1.3em;
+  border-radius:4px;
+  padding:15px 30px;
+  margin:4px;
+  width: 500px;
+  background:$color-grey;
+    -moz-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+// decoration for overview title
+#overview-title {
+  color: $color-dark-grey;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 50%;
+  padding:0 5% 30px;
+}
+
+// decoration for logout button
+#logout{
+  margin-left:5%;
+  outline: none;
+  border:none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+// media query 
+@media (max-width: 900px) {
+  .table {
+    font-size:0.3em;
+    }
+    .flex-item {
+    width:200px
+    }
+}

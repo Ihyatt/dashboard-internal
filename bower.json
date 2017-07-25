@@ -1,0 +1,6 @@
+{
+  "name": "dashboards",
+  "dependencies": {
+    "Faker": "^4.1.0"
+  }
+}

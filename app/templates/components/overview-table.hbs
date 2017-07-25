@@ -1,0 +1,33 @@
+<div class="table">
+  <div class="table__header">
+    <div class="year-title">Year</div>
+    <div class="sites-added-title">Sites Added</div>
+    <div class="total-sites-title">Total Sites</div>
+    <div class="nodes-added-title">Nodes Added</div>
+    <div class="total-nodes-title">Total Nodes</div>
+    <div class="mw-added-title">MW(DC) Added</div>
+    <div class="total-mw-title">TotalMW</div>
+  </div>
+  <div class="table__body">
+    {{#each data as |item index|}}
+      <div class="table__body__row">
+        <div class="year-item">{{item.year}}</div>
+        <div class="site-item">{{item.sites}}</div>
+        <div class="total-sites">{{array-index totalSites index}}</div>
+        <div class="nodes-item">{{item.nodes}}</div>
+        <div class="total-nodes">{{array-index totalNodes index}}</div>
+        <div class="size-item">{{multiply item.size 1000000}}</div>
+        <div class="total-mw">{{array-index totalMW index}}</div>
+      </div>
+    {{/each}}
+    <div class="table__body__row">
+      <div>Total</div>
+      <div class="last-total-sites-added">{{totalSites.lastObject}}</div>
+      <div class="last-total-sites">{{totalSites.lastObject}}</div>
+      <div class="last-total-nodes-added">{{totalNodes.lastObject}}</div>
+      <div class="last-total-nodes">{{totalNodes.lastObject}}</div>
+      <div class="last-total-mw-added">{{totalMW.lastObject}}</div>
+      <div class="last-total-mw">{{totalMW.lastObject}}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div id="form-container">
+  <form>
+    <div class="form-row">
+      <label for="identification">Login</label>
+      {{input value=identification id="username" placeholder="ENTER LOGIN" class="form-control"}}
+    </div>
+    <div class="form-row">
+      <label for="password">Password</label>
+      {{input value=password id="password" placeholder="ENTER PASSWORD" class="form-control" type="password"}}
+    </div>
+    <button {{action "authenticateWithOAuth2"}} type="submit" id="login" class="btn btn-default">Login</button>
+  </form>
+</div>
+{{#if errorMessage}}
+  <div class="alert alert-danger">
+    <p>
+      <strong>Login failed:</strong> <code>{{errorMessage}}</code>
+    </p>
+  </div>
+{{/if}}
