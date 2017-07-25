@@ -1,10 +1,11 @@
 # dashboards
 
-Dashboard project created during my internship at Locus Energy with the purpose of using Ember.js and Highcharts to better display trends in customer data regarding  
-sites and MW added.
+Dashboard project created during my internship at Locus Energy with the purpose of using Ember.js and Highcharts to better display trends in customer data regarding sites and MW added.
 
 ## Login
-(https://user-images.githubusercontent.com/11432315/28595563-3a85106e-7149-11e7-9bb7-b5f4a1b14d5c.png)
+
+<img width="1369" alt="screen shot 2017-07-25 at 2 44 38 pm" src="https://user-images.githubusercontent.com/11432315/28595718-ee7a1092-7149-11e7-837b-647c4b8eb61a.png">
+
 
 ## Overview
 
