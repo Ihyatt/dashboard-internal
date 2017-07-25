@@ -1,7 +1,20 @@
 # dashboards
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Dashboard project created during my internship at Locus Energy with the purpose of using Ember.js and Highcharts to better display trends in customer data regarding  
+sites and MW added.
+
+## Login
+(https://user-images.githubusercontent.com/11432315/28595563-3a85106e-7149-11e7-9bb7-b5f4a1b14d5c.png)
+
+## Overview
+
+### Overview Table
+(https://user-images.githubusercontent.com/11432315/28595591-57f241a8-7149-11e7-99ee-2f805a1ea749.png)
+
+
+### Overview Charts
+(https://user-images.githubusercontent.com/11432315/28595599-60036eb2-7149-11e7-8fb9-cb5a3428e030.png)
+
 
 ## Prerequisites
 
