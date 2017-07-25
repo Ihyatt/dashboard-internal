@@ -9,11 +9,13 @@ Dashboard project created during my internship at Locus Energy with the purpose 
 ## Overview Page
 
 ### Overview Table
-(https://user-images.githubusercontent.com/11432315/28595591-57f241a8-7149-11e7-99ee-2f805a1ea749.png)
+
+<img width="1370" alt="screen shot 2017-07-25 at 2 45 59 pm" src="https://user-images.githubusercontent.com/11432315/28595918-f471865a-714a-11e7-8499-05ddce360013.png">
 
 
 ### Overview Charts
-(https://user-images.githubusercontent.com/11432315/28595599-60036eb2-7149-11e7-8fb9-cb5a3428e030.png)
+
+![screen shot 2017-07-25 at 2 46 26 pm](https://user-images.githubusercontent.com/11432315/28595932-ff8de2ea-714a-11e7-93c2-eb31c80d8985.png)
 
 
 ## Prerequisites
