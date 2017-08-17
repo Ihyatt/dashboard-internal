@@ -2,6 +2,9 @@
 
 Dashboards is a project created during my internship at Locus Energy with the purpose of using Ember.js and Highcharts to better display trends in customer data regarding sites and MW added.
 
+![locus-energy](https://user-images.githubusercontent.com/11432315/29435771-2d6eed5c-835d-11e7-8bd6-7ffb774d85bc.gif)
+
+
 ## Login Page
 
 <img width="1358" alt="screen shot 2017-07-25 at 3 04 18 pm" src="https://user-images.githubusercontent.com/11432315/28595900-e2bf7282-714a-11e7-9944-c970a2d51c18.png">
